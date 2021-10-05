@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(horizont.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 2px solid rgb(0, 70, 31);
+    border-radius: 10px;
+    padding: 15px;
+    color: greenyellow;
+    background-color: rgb(0, 70, 31);
+    position: absolute;
+    right: 30px;
+    top: 20px;
+}
+
+h2{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    left: 30px;
+    top: 20px;
+    border: 2px solid rgb(0, 70, 31);
+    border-radius: 10px;
+    padding: 15px;
+    color: greenyellow;
+    background-color: rgb(0, 70, 31);
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 420px;
+    /* bottom: 50px; */
+}
+.grid{
+    position: absolute;
+    /* margin: 150px auto; */
+    display: flex;
+    height: 606px;
+    width: 606px;
+    flex-wrap: wrap;
+    border: 1px solid rgb(0, 70, 31);
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+    border: 1px solid rgb(0, 70, 31);
+}
+
+.mole{
+    background-image: url("monster.png");
+    background-size:cover;
+}
+
+#gameover{
+    text-align: center;
+    /* top: 40px;
+     */
+    margin-top: 10px;
+    font-size: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(0, 70, 31);
+}
